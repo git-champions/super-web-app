@@ -78,3 +78,9 @@ body {
 .home-main > h2 {
   color: var(--dark-wine);
 }
+
+.champions-list {
+  margin: 2rem 0;
+  color: var(--blue);
+  font-weight: bolder;
+}
