@@ -75,6 +75,10 @@ body {
   color: var(--dark-blue);
 }
 
+/*****************************************************/
+/* MAIN */
+/*****************************************************/
+
 .home-main {
   width: 85vw;
   max-width: 950px;
@@ -86,8 +90,17 @@ body {
 
 .champions-list {
   margin: 2rem 0;
-  color: var(--blue);
   font-weight: bolder;
+}
+
+.champions-list > li {
+  color: var(--blue);
+  transition: all 0.4s ease-in-out;
+}
+
+.champions-list > li:hover {
+  color: var(--wine);
+  text-decoration: underline;
 }
 
 /*****************************************************/
