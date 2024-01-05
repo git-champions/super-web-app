@@ -14,7 +14,7 @@
   --dark-wine: #841551;
   --dark-blue: #0e0c76;
   --blue: #2b40ba;
-  --light-blue: #4873fe;
+  --light-blue: #e3eaff;
   --grey: #7271ad;
   --dark: #04072e;
 }
@@ -41,4 +41,40 @@ a {
 button:hover,
 a:hover {
   cursor: pointer;
+}
+
+body {
+  background-color: var(--light-blue);
+}
+
+/*****************************************************/
+/* HOME STYLE */
+/* HOME STYLE */
+/* HOME STYLE */
+/*****************************************************/
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  margin: 2rem 0;
+}
+
+.home-header {
+  margin-bottom: 3rem;
+}
+
+.home-title {
+  font-family: "Zeyada", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: var(--dark-blue);
+}
+
+.home-main {
+  width: 85vw;
+  max-width: 950px;
+}
+
+.home-main > h2 {
+  color: var(--dark-wine);
 }
