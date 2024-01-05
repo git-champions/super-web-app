@@ -27,6 +27,13 @@
   border: none;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
 ul,
 menu,
 nav {
@@ -52,16 +59,14 @@ body {
 /* HOME STYLE */
 /* HOME STYLE */
 /*****************************************************/
-.homepage {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100vw;
-  margin: 2rem 0;
-}
+
+/*****************************************************/
+/* HEADER */
+/*****************************************************/
 
 .home-header {
   margin-bottom: 3rem;
+  margin: 2rem 0;
 }
 
 .home-title {
@@ -69,6 +74,10 @@ body {
   font-size: 3rem;
   color: var(--dark-blue);
 }
+
+/*****************************************************/
+/* MAIN */
+/*****************************************************/
 
 .home-main {
   width: 85vw;
@@ -81,6 +90,27 @@ body {
 
 .champions-list {
   margin: 2rem 0;
-  color: var(--blue);
   font-weight: bolder;
+}
+
+.champions-list > li {
+  color: var(--blue);
+  transition: all 0.4s ease-in-out;
+}
+
+.champions-list > li:hover {
+  color: var(--wine);
+  text-decoration: underline;
+}
+
+/*****************************************************/
+/* FOOTER */
+/*****************************************************/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding: 3rem 0;
+  color: var(--dark-wine);
+  font-weight: bold;
 }
